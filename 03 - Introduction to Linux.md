@@ -149,5 +149,6 @@ Ls -al /var	    # checks if logs folder is in /var
 * man <command> opens the manual for any command. It also has all the flags related to the command.
 
 ---
-Next: 02 — File Management
+**Next:** [04 — File Management](04%20-%20File%20Management.md)
+
 
