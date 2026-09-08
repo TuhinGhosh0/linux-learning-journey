@@ -186,5 +186,5 @@ In Linux, file extensions are optional and sometimes misleading. Use `file` comm
 
 
 ---
-- *Previous: [01 — Introduction to Linux](../01-introduction-to-linux/README.md)*
-- *Next: [03 — User Management & Permissions](../03-user-management-permissions/README.md)*
+* **Previous:** [03 - Introduction to Linux.md](03%20-%20Introduction%20to%20Linux.md)
+* **Next:** [05 — User Management & Permissions](03%20-%20User%20Management%20%26%20Permissions.md)
