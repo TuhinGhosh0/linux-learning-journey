@@ -12,6 +12,7 @@ Format: command —> what it does —> example
 | `ls` | List directory contents | `ls -la` |
 | `cd` | Change directory | `cd /home/tuhin` |
 | `cd ..` | Go one level up | `cd ..` |
+| `cd ../..` | Go two level up | `cd ../..` |
 | `cd ~` | Go to home directory | `cd ~` |
 | `cd -` | Go to previous directory | `cd -` |
 | `clear` | Clear terminal screen | `clear` |
