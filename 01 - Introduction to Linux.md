@@ -83,17 +83,17 @@ ls -alht /etc             # shows list of all files (including .hidden file) in 
 ### cd – Change Directory
 Moves you from one folder to another.
 ```bash
-cd /home/tuhin	        # go to a specific path (absolute path)
-cd documents		     # go into documents from/to current location (relative path)
-cd ..			          # go to one level up
-cd ../.. 			          # go to two level up
-cd ~		                # go to your home directory from anywhere
-cd -		                # go back to previous directory
-cd /		                # go to root
+cd /home/tuhin                 # go to a specific path (absolute path)
+cd documents                   # go into documents from/to current location (relative path)
+cd ..                          # go to one level up
+cd ../..                       # go to two level up
+cd ~                           # go to your home directory from anywhere
+cd -                           # go back to previous directory
+cd /                           # go to root
 ```
-## Absolute vs Relative paths:
-•	Absolute path means the entire path from root to target – it usually starts from / and works anywhere.
-•	Relative path does not starts with / and only works from where you currently are.
+### Absolute vs Relative paths:
+* Absolute path means the entire path from root to target; It usually starts from / and works anywhere.
+* Relative path does not starts with / and only works from where you currently are.
 
 ### Man – Manual 
 Opens the manual pages for any command. The most important tool.
@@ -110,10 +110,10 @@ Clears the terminal screen. Shortcut: ctrl + L
 ### history
 Shows you your previously run commands.
 ```bash
-history 	         # shows all previous commands with numbers
-history	20	       # shows last 20 commands
-!42 	             # re-runs command number 42 from history
-!! 	               # re-run your last command.
+history                  # shows all previous commands with numbers
+history	20               # shows last 20 commands
+!42                      # re-runs command number 42 from history
+!!                       # re-run your last command.
 ```
 You can also use arrow keys to traverse the history. 
 Up arrow -> previous command.
@@ -122,11 +122,11 @@ Down arrow -> next command.
 ## Practical Example 
 ### Scenario: You log into a Linux server for the first time. What do you do ?
 ```bash 
-pwd 		       # find out where you are
-ls -al		     # see everything in current directory including .hidden files
-cd /etc		     # navigate to configuration files
-ls -l 		     # see what config files exist
-cd ~ 		       # come back home
+pwd                   # find out where you are
+ls -al                # see everything in current directory including .hidden files
+cd /etc               # navigate to configuration files
+ls -l                 # see what config files exist
+cd ~                  # come back home
 ```
 ### Scenario: You want to find a specific folder called ‘logs’
 ```bash
