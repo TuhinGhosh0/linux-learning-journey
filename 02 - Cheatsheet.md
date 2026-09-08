@@ -47,9 +47,9 @@ Format: command —> what it does —> example
 | `id` | Show user and group IDs | `id username` |
 | `useradd` | Create new user | `sudo useradd -m -s /bin/bash thor` |
 | `passwd` | Set user password | `sudo passwd thor` |
-| `usermod` | Modify user	| `sudo usermod -aG avengers thor` |
+| `usermod` | Modify user	| `sudo usermod -aG developers thor` |
 | `userdel` | Delete user	| `sudo userdel -r thor` |
-| `groupadd` | Create group	| `sudo groupadd avengers` |
+| `groupadd` | Create group	| `sudo groupadd developers` |
 | `groups` | Show group membership | `groups thor` |
 | `sudo` | Run as superuser	| `sudo command` |
 
