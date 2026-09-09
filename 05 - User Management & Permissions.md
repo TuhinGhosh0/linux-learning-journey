@@ -246,5 +246,5 @@ Many system commands require elevated privileges. If a command says Permission d
 
 
 ---
-*Previous: [03 — File Management](04%20-%20File%20Management.md)*
-*Next: [05 — Process Management](06%20-%20Process%20Management.md)*
+*Previous: [04 — File Management](04%20-%20File%20Management.md)*
+*Next: [06 — Process Management](06%20-%20Process%20Management.md)*
