@@ -24,9 +24,9 @@ Think of your Linux system as a kitchen in a busy restaurant.
 
 Every dish being cooked is a process. The head chef (root) can start or stop any dish at any time. Regular chefs (users) can only manage their own station. The order tickets are the commands. And if one dish is burning and consuming all the gas — you need to kill that process before it ruins everything else.
 
----
 
-## Key Concepts
+---
+**Key Concepts**
 
 **PID — Process ID**
 Every process gets a unique number when it starts. This is how Linux identifies and manages it.
@@ -39,10 +39,10 @@ Every process is started by another process. The PPID is the parent's PID.
 - Background process: runs independently, your terminal stays free
 
 **Signals**
-Signals are messages you send to a process to tell it what to do — pause, stop, terminate, etc.
+Signals are messages you send to a process to tell it what to do like pause, stop, terminate, etc.
+
 
 ---
-
 ## Commands Learned
 
 ### ps — Process Status
@@ -136,8 +136,8 @@ sudo systemctl enable nginx     # start service automatically on boot
 sudo systemctl disable nginx    # stop service from starting on boot
 ```
 
----
 
+---
 ## Practical Examples
 
 **Scenario: Something is slowing your server down — find what is consuming resources**
@@ -161,8 +161,8 @@ sudo systemctl restart nginx    # restart it
 sudo systemctl status nginx     # verify it is running again
 ```
 
----
 
+---
 ## Mistakes and Gotchas
 
 **Mistake 1 — Using kill -9 as the first option**
@@ -177,8 +177,8 @@ Never kill a process you do not recognise without researching it first. Some sys
 **Mistake 4 — Forgetting the & when running background processes**
 If you forget `&` and run a long process, your terminal is stuck until it finishes. Use `Ctrl + Z` then `bg` to send it to background.
 
----
 
+---
 ## Quick Revision
 
 - Every running program is a process with a unique PID
@@ -189,5 +189,5 @@ If you forget `&` and run a long process, your terminal is stuck until it finish
 
 
 ---
-*Previous: [05 — User Management & Permissions](05%20-%20User%20Management%20%26%20Permissions.md)*
-*Next: [07 — Text Processing](07%20-%20Text%20Processing.md)*
+* *Previous: [05 — User Management & Permissions](05%20-%20User%20Management%20%26%20Permissions.md)*
+* *Next: [07 — Text Processing](07%20-%20Text%20Processing.md)*
